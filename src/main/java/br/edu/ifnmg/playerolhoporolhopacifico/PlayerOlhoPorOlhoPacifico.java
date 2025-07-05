@@ -22,7 +22,7 @@ public class PlayerOlhoPorOlhoPacifico implements IPlayer{
 
     @Override
     public String getEngineName() {
-        return "Olho por Olho Pacifico";
+        return "Nate Diaz(Olho por Olho Pacifico)";
     }
 
     @Override
