@@ -33,7 +33,8 @@ public class PlayerOlhoPorOlhoPacifico implements IPlayer{
             minhaDecisao = Decision.COOPERATE;
         }
             
-        else if(opponentPreviousMove == Decision.DEFECT && penultimaJogadaOponente == Decision.DEFECT){
+        else if(opponentPreviousMove == Decision.DEFECT &&
+                penultimaJogadaOponente == Decision.DEFECT){
             minhaDecisao = Decision.DEFECT;
         }
         
