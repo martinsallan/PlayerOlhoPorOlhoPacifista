@@ -10,11 +10,7 @@ import io.github.guisso.meleeinterface.IPlayer;
 public class PlayerOlhoPorOlhoPacifico implements IPlayer{
 
     private Decision penultimaJogadaOponente = Decision.COOPERATE;
-    
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
-
+   
     @Override
     public String getDeveloperName() {
         return "Allan Martins";
